@@ -1,12 +1,16 @@
 module MathGame
    class Players
-    attr_accessor :lives, :name
+    attr_reader :score, :name
 
     def initialize(name)
       @name = name
-      @lives = 3
+      @score = 3
     end
-  end
 
+    def lose_life
+      @score -= 1
+    end
+
+  end
 end
 

@@ -19,10 +19,3 @@ module MathGame
     end
   end
 end
-
-
-
-
-
-# GENERATED EACH TURN, SIMPLE ADDITION W 2 NUMBERS BW 1 - 20
-#  HAS USER I/O
